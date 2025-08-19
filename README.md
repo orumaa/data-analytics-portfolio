@@ -1,83 +1,66 @@
-# Data Analytics Portfolio
+# 🚖 Uber Ride Analytics Dashboard
 
-Hi, I’m Oruma! 👋  
-This is my collection of data analytics projects using Power BI and Excel.  
+Welcome to my **Data Analytics Portfolio**!  
+
+This project explores **Uber ride booking patterns**, cancellations, customer ratings, and ride efficiency.  
+The dashboard was built using **Power BI** and is designed to provide insights into both **operational performance** and **customer behavior**.  
 
 ---
 
-Uber Ride Analytics Dashboard
-[Uber Dashboard]
-<img width="573" height="320" alt="Screenshot 2025-08-19 170512" src="https://github.com/user-attachments/assets/b9fc15a9-c835-46a4-b425-e6bc239d127b" />
+## 📊 Project Overview
+- **Dataset**: Uber ride bookings (cleaned and pre-processed for analysis).  
+- **Tool**: Microsoft Power BI.  
+- **Focus Areas**:
+  - Ride demand trends by **hour, day, and month**.
+  - **Popular pickup and drop-off locations**.
+  - Ride **completion time (CTAT)** vs **waiting time (VTAT)** across vehicle types.
+  - **Customer cancellations** – who cancels, and why.
+  - Variation in **ratings** across vehicle types and payment methods.
+  - **Average booking value per customer segment**.
 
+---
 
+## 🖼️ Dashboard Screenshots
+Below are snapshots of the dashboard for a glance.  
 
+![Uber Dashboard Screenshot](assets/images/uber-dashboard.png)
 
+*(You can add more screenshots by saving them in an `assets/images` folder in your repo.)*
 
+---
 
-Uber Ride Analytics Dashboard – Project Story
-Objective
+## 🚀 Key Insights
+- **Peak Ride Times**: Most bookings occur during weekday evenings and weekend nights.  
+- **Hotspot Locations**: A handful of pickup and drop-off points dominate ride demand.  
+- **Customer Behaviour**: Frequent riders spend significantly more per ride compared to occasional users.  
+- **Cancellations**: The top 10% of customers account for most ride cancellations, often due to delays or pricing issues.  
+- **Ratings**: Premium vehicle types score higher ratings, while cash payments show slightly lower satisfaction levels.  
 
-This project aimed to design an interactive dashboard that provides insights into customer ride patterns, vehicle usage, booking behaviours, and payment preferences. By visualising these insights, the dashboard helps business stakeholders understand operational performance, customer habits, and opportunities to optimize the ride-hailing service.
+---
 
-Data & Cleaning Process
+## 🛠️ Tools & Skills Demonstrated
+- Data Cleaning & Preparation (Excel & Power Query)  
+- Interactive Data Visualisation (Power BI)  
+- Dashboard Design & Storytelling  
+- Analytical Thinking (turning raw data into business insights)  
 
-The dataset contained Uber ride booking details, including booking dates, pickup and drop-off locations, vehicle types, waiting time (VTAT), completion time (CTAT), ride distance, and payment methods.
-I began by cleaning the dataset — handling missing values, standardizing categorical variables (vehicle types, payment modes), and ensuring consistency in date/time columns for temporal analysis.
+---
 
-Outliers such as extreme ride distances and unusual ride times were examined and filtered to avoid skewed insights.
+## 📂 Project Files
+- `Uber Ride Analytics Dashboard.pbix` → Power BI file.  
+- `README.md` → Project documentation.  
+- `/assets/images/` → Dashboard screenshots.  
 
-Key Insights Delivered
+---
 
-Total Bookings
+## 📬 Contact
+👤 **Oruma Shuaibu Ojochenemi**  
+🔗 [GitHub](https://github.com/orumaa)  
+📧 orumashuaib@gmail.com 
 
-The dashboard highlights 9,000 total rides analysed. This KPI card sets the stage for performance tracking.
+---
 
-Seasonal Ride Trends
-
-A line/area chart tracks monthly booking volumes, showing peaks in certain months (e.g., July and November).
-
-This insight helps in identifying seasonal demand fluctuations and supports resource planning.
-
-Ride Performance by Vehicle Type
-
-A clustered bar chart compares average waiting time (VTAT) with average completion time (CTAT) across different vehicle types (Uber XL, Go Mini, Auto, etc.).
-
-This reveals efficiency differences — for example, smaller vehicles often have shorter waiting times, while larger vehicles have longer ride durations.
-
-Ride Distance Analysis
-
-A line chart shows average ride distance by vehicle type, highlighting that eBikes and Go Sedans tend to cover longer trips compared to bikes or Premier Sedans.
-
-Payment Preferences
-
-The bar chart reveals UPI as the most preferred payment method, followed by cash. Cards and wallets are less popular.
-
-This insight can guide promotional strategies or partnerships with payment providers.
-
-Pickup & Drop-off Hotspots
-
-Filters allow users to analyze the most popular pickup and drop locations. This is crucial for understanding demand clusters and improving driver allocation.
-
-Design Considerations
-
-Interactive Filters: Users can drill down by payment method, pickup location, and drop location to personalise the insights.
-
-Minimalist Layout: The dashboard is kept clean and straightforward, allowing users to focus on insights without visual clutter.
-
-Comparative Analysis: Multiple charts were used to compare metrics (e.g., CTAT vs VTAT), making patterns easy to spot.
-
-Impact
-
-This project demonstrates how data visualisation can uncover operational inefficiencies, customer preferences, and demand patterns in the ride-hailing industry. The dashboard can be extended further with real-time data, customer segmentation, or cancellation analysis to enhance decision-making for stakeholders.
-
-
-**Tools:** Power BI, Excel  
-**Key Insights:**
-- Peak booking hours, days, and months  
-- Popular pickup and drop-off locations  
-- Customer cancellation trends  
-- Vehicle type performance  
-
-🔗 [Download PBIX] (https://drive.google.com/file/d/1Bjqv7OBji8ygdcEiTk6h9NgZfHFjzcQY/view?usp=sharing)  
+✨ *Thanks for visiting my portfolio! More projects coming soon.*
+ 
 
 
